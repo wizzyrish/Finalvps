@@ -18,7 +18,7 @@ import time
 # --- Configuration ---
 # !! IMPORTANT: Get these from environment variables on Koyeb !!
 BOT_TOKEN = "7361179706:AAEeX6Cx8Q7zYBRXPwFswbZWU33jJFfgY-M"
-ADMIN_USER_ID = "6094316605" # Set your Telegram User ID here
+ADMIN_USER_ID = 6094316605 # Set your Telegram User ID here
 
 if not BOT_TOKEN or ADMIN_USER_ID == 0:
     raise ValueError("Error: BOT_TOKEN and ADMIN_USER_ID environment variables must be set.")
